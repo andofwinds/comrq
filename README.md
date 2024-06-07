@@ -8,10 +8,8 @@ comrq is a simple serial port poller developed by andofwinds with some features 
 ```bash
 git clone https://github.com/andofwinds/comrq.git
 cd comrq
-gcc comrq.c -ltoml -o comrq
+gcc comrq.c -o comrq
 ```
-
-Dependency `toml` is required.
 
 ## Available options
 #### -C
