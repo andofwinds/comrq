@@ -1,0 +1,6 @@
+# This is a Command Sequence file
+# Every command here must be started from new line!
+# `#` symbol means comment. This line wont be parsed
+
+# The text below will be sent to Serial port
+hello from comrq!

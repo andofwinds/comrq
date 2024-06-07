@@ -1,0 +1,9 @@
+# This is a main table with COM port configuration
+[serial]
+name = "/dev/ttyUSB0"   # COM port name / path
+speed = 9600            # COM port speed (bod)
+timeout = 1             # Requests timeout (seconds)
+
+# This is a table with other info related to comrq but not related to COM port itself
+[metadata]
+req_file_path = "requests.csq"    # .csq (Command SeQuence) file path
