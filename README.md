@@ -1,6 +1,9 @@
 # comrq
 ### a simple way to serial port polling
 
+## About
+comrq is a simple serial port poller developed by andofwinds with some features like live-reloading.
+
 ## Compile
 ```bash
 git clone https://github.com/andofwinds/comrq.git
