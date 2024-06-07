@@ -18,7 +18,7 @@ Dependency `toml` is required.
 Specify the command that will be sent instead of commands from *.csq file
 
 #### -c
-Specify the configuration file (defaault is `./comrq_configuration.toml`)
+Specify the configuration file (default is `./comrq_configuration.toml`)
 
 
 ## Syntax
