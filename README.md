@@ -19,4 +19,12 @@ Specify the configuration file (defaault is `./comrq_configuration.toml`)
 
 
 ## Syntax
+
 ### Command sequence file (.csq)
+.csq syntax is simple.
+Every command must start from new line.
+Also you can place the comment by typing `#` symbol on the start of line.
+
+### Configuration file (.toml)
+This is the most common .toml v1.0 syntax.
+
