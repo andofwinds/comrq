@@ -129,7 +129,7 @@ void multiple_commands_loop(struct com_dat comport_data)
   lines_count = read_csq(comport_data.req_file_path);
   if (lines_count == -1)
   {
-    ierrorn("Cannot read Comment Sequence file");
+    ierrorn("Cannot read Command Sequence file");
   }
 
   while (1)
@@ -143,7 +143,7 @@ void multiple_commands_loop(struct com_dat comport_data)
       lines_count = read_csq(comport_data.req_file_path);
       if (lines_count == -1)
       {
-        ierrorn("Cannot read Comment Sequence file");
+        ierrorn("Cannot read Command Sequence file");
       }
 
       get_line(comport_data.req_file_path, p, buf);
